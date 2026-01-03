@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+  <location>Cairo, Egypt</location>
+  <description>
+     <![CDATA[
+        A library in Cairo featuring & , %&lt; books about all things you can't miss in Egypt.
+     ]]> 
+  </description>
+  <librarian>Karim Ibrahim</librarian>
+  <books>
+    <book>
+      <title>Swimming Techniques</title>
+      <author>Basem Mostafa</author>
+      <ISBN>11223344</ISBN>
+      <preface>
+        This book is for swimmers who want to learn all styles.
+      </preface>
+      <parts>
+        <part title="Basic Strokes">
+          <chapter title="Freestyle">
+            <section>
+              <paragraph>Freestyle is the fastest swimming style.</paragraph>
+              <paragraph>You kick your legs up and down.</paragraph>
+              <bookmark page="10"/>
+              <paragraph>Your arms move one at a time.</paragraph>
+            </section>
+            <separation/>
+            <section>
+              <paragraph>Breathe by turning your head to the side.</paragraph>
+              <paragraph>Keep your body flat in the water.</paragraph>
+            </section>
+            <summary>
+              This chapter teaches you how to swim freestyle step by step.
+            </summary>
+          </chapter>
+          <chapter title="Backstroke">
+            <section>
+              <paragraph>Backstroke is swimming on your back.</paragraph>
+              <paragraph>Your face stays out of the water.</paragraph>
+              <paragraph>This makes breathing very easy.</paragraph>
+            </section>
+            <separation/>
+            <section>
+              <paragraph>Move your arms like a windmill.</paragraph>
+              <paragraph>Kick your legs in a flutter motion.</paragraph>
+            </section>
+            <summary>
+              This chapter teaches you how to swim backstroke correctly.
+            </summary>
+          </chapter>
+        </part>
+        <part title="Advanced Strokes">
+          <chapter title="Breaststroke">
+            <section>
+              <paragraph>Breaststroke is a slow and relaxing style.</paragraph>
+              <paragraph>Your arms push out and pull back together.</paragraph>
+              <paragraph>Your legs do a frog kick.</paragraph>
+            </section>
+            <separation/>
+            <section>
+              <paragraph>Lift your head to breathe each stroke.</paragraph>
+              <paragraph>This style is good for long distances.</paragraph>
+            </section>
+            <summary>
+              This chapter teaches you the breaststroke technique.
+            </summary>
+          </chapter>
+          <chapter title="Butterfly">
+            <section>
+              <paragraph>Butterfly is the hardest swimming style.</paragraph>
+              <paragraph>Both arms move together over the water.</paragraph>
+              <paragraph>Your body moves like a dolphin.</paragraph>
+            </section>
+            <separation/>
+            <section>
+              <paragraph>You need strong shoulders for butterfly.</paragraph>
+              <paragraph>Practice dolphin kicks first.</paragraph>
+            </section>
+            <summary>
+              This chapter teaches you the butterfly stroke basics.
+            </summary>
+          </chapter>
+        </part>
+      </parts>
+    </book>
+    <book>
+      <title>Egyptian Food</title>
+      <author>Chef Sherbiny</author>
+      <ISBN>55667788</ISBN>
+      <preface>
+        This book is for people who love Egyptian cuisine.
+      </preface>
+      <parts>
+        <part title="Rice Dishes">
+          <chapter title="Koshari">
+            <section>
+              <paragraph>Koshari is the national dish of Egypt.</paragraph>
+              <paragraph>It has rice, pasta, and lentils.</paragraph>
+              <paragraph>We add crispy fried onions on top.</paragraph>
+            </section>
+            <separation></separation>  
+            <section>
+              <paragraph>The tomato sauce is spicy and delicious.</paragraph>
+              <paragraph>Koshari is cheap and fills your stomach.</paragraph>
+            </section>
+            <summary>
+              This chapter teaches you how to make authentic Egyptian koshari.
+            </summary>
+          </chapter>
+          <chapter title="Roz Moammar">
+            <section>
+              <paragraph>Roz Moammar is Egyptian baked rice.</paragraph>
+              <paragraph>It is cooked with milk and cream.</paragraph>
+              <paragraph>The top becomes golden and crispy.</paragraph>
+            </section>
+            <separation/>
+            <section>
+              <paragraph>This dish comes from Upper Egypt.</paragraph>
+              <paragraph>It is served at weddings and feasts.</paragraph>
+            </section>
+            <summary>
+              This chapter teaches you how to make creamy roz moammar.
+            </summary>
+          </chapter>
+        </part>
+        <part title="Stuffed Vegetables">
+          <chapter title="Mahshi">
+            <section>
+              <paragraph>Mahshi means stuffed in Arabic.</paragraph>
+              <paragraph>We stuff vegetables with rice and herbs.</paragraph>
+              <bookmark page='50'/>
+              <paragraph>Common vegetables are peppers and zucchini.</paragraph>
+            </section>
+            <separation/>
+            <section>
+              <paragraph>Grape leaves mahshi is very popular.</paragraph>
+              <paragraph>Cabbage mahshi is also delicious.</paragraph>
+            </section>
+            <summary>
+              This chapter teaches you how to make different types of mahshi.
+            </summary>
+          </chapter>
+        </part>
+      </parts>
+    </book>
+  </books>
+</library>
