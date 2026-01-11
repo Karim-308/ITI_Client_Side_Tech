@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <style>
+        body{
+            background-color: black;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+        }
+        #Clock{
+            color: aliceblue;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            font-size: 48px;
+            margin-top: 50px;
+        }
+        #container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 80vh;
+        }
+        #Start{
+            border-radius: 3%;
+            border: 2px solid rgb(255, 255, 255);
+            background-color: chartreuse;
+            color: rgb(0, 0, 0);
+            padding: 15px 30px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="Clock"></div>
+    <div id="container">  <button id="Start" onclick="startClock()">Start Clock</button></div>
+  
+    <script src="clock.js"></script>
+</body>
+</html>
