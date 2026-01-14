@@ -57,9 +57,9 @@ class Box {
     if (book instanceof Book) {
       this.content.push(book);
       this.numOfBooks++;
-      return true;
     }
-    return false;
+    else
+      throw ("Can't add a non Book Object to the Box")
   }
 
   toString() {
@@ -83,3 +83,50 @@ class Box {
     return this.numOfBooks;
   }
 }
+
+
+let book1 = new Book("JavaScript", "Programming", "John Doe", 15, 450, "TechBooks", 100);
+let book2 = new Book("CSS", "Programming", "Jane Smith", 10, 300, "WebPress", 50);
+let book3 = new Book("Harry potter", "Fiction", "J.K Rowling", 7, 340, "Classics", 1000000);
+let book4 = new Book("Potter Harry", "Fiction", "J.K Rowling2", 7, 340, "Classics2", 2000000);
+
+
+console.log(book1);
+console.log(book2);
+console.log(book3);
+console.log(book4);
+
+let box1 = new Box(30, 20, 40, "Cardboard");
+console.log(box1.toString());
+
+console.log (box1.countBooks());
+console.log(box1.valueOf());
+
+
+box1.addBook(book1);
+box1.addBook(book2);
+box1.addBook(book3);
+
+try{
+box1.addBook("not a book");
+
+}
+catch(e){console.log(e)}
+
+console.log(box1);
+console.log("count " + box1.countBooks());
+
+let book5 = new Book("CSS2", "Programming", " Karim", 10, 300, "publosher1", 50);
+console.log(box1);
+console.log("count" + box1.countBooks());
+
+
+
+box1.deleteBook("CSS");
+console.log("deleted CSS books");
+console.log(box1);
+
+
+console.log("deleted books of type Fiction");
+box1.deleteBook("Fiction")
+console.log(box1);
