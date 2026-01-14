@@ -65,7 +65,7 @@ class Square extends Shape {
   #length;
   static #squareCount = 0;
 
-  constructor(len, wid) {
+  constructor(len) {
     if (Square.#squareCount != 0) throw "Square class has one instance already created";
 
     super();
@@ -112,3 +112,39 @@ class Circle extends Shape {
     return 2 * 3.14 * this.#radius;
   }
 }
+
+let Circle1 = new Circle(5);
+let Rectangle1 = new Rectangle(10 , 10);
+let Square1 = new Square(3);
+
+console.log(Circle1.getArea());
+console.log(Circle1.getPerimeter());
+
+try {
+  let Rectangle2 = new Rectangle(20, 10);
+
+} catch (error) {
+  console.log("Error: " + error);
+}
+try {
+  let Square2 = new Square(20, 10);
+
+} catch (error) {
+  console.log("Error: " + error);
+}
+
+
+console.log(Rectangle1.getArea());
+console.log(Rectangle1.getPerimeter());
+Rectangle1.setWidth =6;
+console.log(Rectangle1.getArea());
+console.log(Rectangle1.getPerimeter());
+console.log(Rectangle1.getArea());
+console.log(Rectangle1.getPerimeter());
+
+console.log(Square1.getArea());
+console.log(Square1.getPerimeter());
+
+
+let circle2 = new Circle(66)
+console.log(Shape.getCount());
